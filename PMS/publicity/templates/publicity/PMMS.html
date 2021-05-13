@@ -1,0 +1,50 @@
+﻿{% load static %}
+<html>
+<head>
+     <title>Publicity and Marketing Managment System</title>
+     <meta name="viewport" content="width=device-width,initial-scale=1">
+      <link  rel="stylesheet" href="{% static 'style.css' %}">
+	  <link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+	  
+<body>
+   <div class="hero">
+   <div class="nav-bar">
+           <div class="nav-logo">
+		   </div>
+		   <div class="nav-links">
+		     <i class="fa fa-close" ></i>
+		     <ul> 
+			    <a href="{% url 'aboutus' %}"><li>ABOUTUS</li></a>
+			   
+			 
+
+				
+				<a href="{% url 'contactus' %}"><li>CONTACT US</li></a>
+				
+				<li> <a href="{% url 'login' %}">Login</a> </li>
+				
+				<li> <a href="{% url 'register' %}">SignUp</a> </li>
+			 </ul>
+			 
+			<h2>
+			 <img src="{% static 'logo2.png' %}" </h2>
+
+		     
+		   
+		   </div>
+		    <i class="fa fa-bars" ></i>
+		   </div>
+		   
+		   <div class="banner-title">
+		   <br><i><marquee>📢To publish your business Mail: advertise@bga.com</marquee></i></br>
+		        <h1> <i>Better way to make your business bring revenue </i></h1> 
+				<br><i><marquee>📢To publish your business Mail: advertise@bga.com</marquee></i></br>
+			      <button type="button" class="btn"><i>Trusted by 20k+ advertisers</i></button>
+		   </div>
+		   
+		   
+     </div>
+	
+</body>
+</html>
